@@ -17,30 +17,33 @@ function About() {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                    <p>discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"</p>
+                    <p>Currently, I’m working with Telenor as a consultant via Experis, where I split my time between working as Tech-Lead and hands-on development.</p>
+                    <p>My expertise spans across various technologies, including Python (Django, Flask), JavaScript (React, Angular), Java, HTML & CSS, and cloud platforms like AWS.</p>
                 </div>
                 <div className="about-skills">
-                    <div className="about-skill"><p>HTML & CSS</p><hr style={{width: "50%"}}/></div>
-                    <div className="about-skill"><p>React JS</p><hr style={{width: "80%"}}/></div>
-                    <div className="about-skill"><p>Python</p><hr style={{width: "40%"}}/></div>
-                    <div className="about-skill"><p>JavaScript</p><hr style={{width: "60%"}}/></div>
+                    <div className="about-skill"><p>Python</p><hr style={{width: "70%"}}/>70%</div>
+                    <div className="about-skill"><p>JavaScript</p><hr style={{width: "40%"}}/>40%</div>
+                    <div className="about-skill"><p>HTML & CSS</p><hr style={{width: "60%"}}/>60%</div>
+                    <div className="about-skill"><p>Java</p><hr style={{width: "50%"}}/>50%</div>
+                    <div className="about-skill"><p>React</p><hr style={{width: "40%"}}/>30%</div>
+                    <div className="about-skill"><p>Angular</p><hr style={{width: "20%"}}/>20%</div>
+                    <div className="about-skill"><p>AWS</p><hr style={{width: "30%"}}/>30%</div>
                 </div>
             </div>
         </div>
         <div className="about-achievments">
             <div className="about-achievment">
-                <h1>10+</h1>
+                <h1>2+</h1>
                 <p>YEARS OF EXPERIENCE</p>
             </div>
             <hr />
             <div className="about-achievment">
-                <h1>90+</h1>
+                <h1>5+</h1>
                 <p>PROJECTS COMPLETED</p>
             </div>
             <hr />
             <div className="about-achievment">
-                <h1>15+</h1>
+                <h1>5+</h1>
                 <p>HAPPY CLIENTS</p>
             </div>
         </div>
