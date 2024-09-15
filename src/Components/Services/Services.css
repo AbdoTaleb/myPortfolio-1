@@ -7,6 +7,25 @@
     margin: 80px 170px;
 }
 
+.services-format p {
+    color: #d4d4d4;
+    font-size: 24px;
+    line-height: 40px;
+    max-width: 300px;
+    max-height: 120px; /* Set the height to show only part of the text */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show '...' for hidden text */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limits the number of lines to show */
+    -webkit-box-orient: vertical;
+    transition: max-height 0.3s ease;
+}
+
+.services-format.expanded p {
+    max-height: none; /* Remove height limit when expanded */
+    -webkit-line-clamp: unset; /* Show all lines when expanded */
+}
+
 .services-title{
     position: relative;
 }
@@ -25,7 +44,7 @@
 .services-format{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start; 
     gap: 20px;
     padding: 60px;
     border-radius: 10px;
@@ -33,6 +52,9 @@
     transition: 0.4s;
     cursor: pointer;
 }
+
+
+
 
 .services-container{
     display: grid;
@@ -49,7 +71,7 @@
 .services-format h2{
     font-size: 38px;
     font-weight: 800;
-    background: linear-gradient(267deg, #DA7c25 0.36%, #B923E1 102.06%);
+    background: linear-gradient(270deg, #82a9fd, #C687FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -96,6 +118,7 @@
     .services-format{
         gap: 20px;
         padding: 32px;
+
 
     }
     .services-format h2{

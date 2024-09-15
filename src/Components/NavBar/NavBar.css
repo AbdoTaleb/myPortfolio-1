@@ -6,6 +6,10 @@
 
 }
 
+#underline-img{
+    width: 50px;
+    height: 10px;
+}
 .nav-menu{
     display: flex;
     align-items: center;
@@ -17,7 +21,7 @@
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #DA7c25 0.36%, #B923E1 102.06%);
+    background: linear-gradient(270deg, #82a9fd, #C687FF 100%);
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;

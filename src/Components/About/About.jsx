@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import theme_pattern from '../../assets/theme_pattern.svg'
+import theme_pattern from '../../assets/underline.svg'
 import about_profile from '../../assets/about_profile.svg'
 import me from '../../assets/me.jpeg'
 
